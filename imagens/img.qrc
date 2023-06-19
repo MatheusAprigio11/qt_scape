@@ -1,0 +1,25 @@
+<RCC>
+  <qresource prefix="img">
+    <file>img.qrc</file>
+    <file>T3.png</file>
+    <file>T3.png</file>
+    <file>T3BilheteCaixa.png</file>
+    <file>T3Caixa.png</file>
+    <file>T3Calendario.png</file>
+    <file>T3Nivel.png</file>
+    <file>T3Quadro.png</file>
+    <file>T3RGB.png</file>
+    <file>T3SAIDA.png</file>
+    <file>TD.png</file>
+    <file>TDBilheteRosa.png</file>
+    <file>TDFrase.png</file>
+    <file>TDOlhos.png</file>
+    <file>TDSombra.png</file>
+    <file>TDTintas.png</file>
+    <file>telaUm.png</file>
+    <file>TUBilhete.png</file>
+    <file>TUEscultura.png</file>
+    <file>TUPintura.png</file>
+    <file>TUQuadroBilhete.png</file>
+  </qresource>
+</RCC>
