@@ -54,6 +54,24 @@
      <pixmap resource="../imagens/img.qrc">:/img/T3Calendario.png</pixmap>
     </property>
    </widget>
+   <widget class="QPushButton" name="volta">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>550</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(214, 102, 241, 80%);
+font: 12pt &quot;Comic Sans MS&quot;;
+border-radius: 8px</string>
+    </property>
+    <property name="text">
+     <string>Voltar</string>
+    </property>
+   </widget>
   </widget>
  </widget>
  <resources>

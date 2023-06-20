@@ -1,5 +1,7 @@
 <RCC>
   <qresource prefix="img">
+    <file>setaDireita.png</file>
+    <file>setaEsquerda.png</file>
     <file>img.qrc</file>
     <file>T3.png</file>
     <file>T3.png</file>
