@@ -52,6 +52,9 @@
     </property>
    </widget>
    <widget class="QPushButton" name="pintura">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>40</x>
@@ -61,23 +64,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rbga(0, 0, 0, 0);</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="quadroBilhete">
-    <property name="geometry">
-     <rect>
-      <x>630</x>
-      <y>280</y>
-      <width>141</width>
-      <height>141</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rbga(0, 0, 0, 0);</string>
+     <string notr="true">background-color: rgba(0, 0, 0, 0)</string>
     </property>
     <property name="text">
      <string/>
@@ -93,7 +80,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rbga(0, 0, 0, 0);</string>
+     <string notr="true">background-color: rgba(255, 255, 255, 0)</string>
     </property>
     <property name="text">
      <string/>
@@ -128,7 +115,23 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgba(0,0,0,0)</string>
+     <string notr="true">background-color: rgba(0,0,0,0);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="quadroBilhete">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>290</y>
+      <width>131</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
     </property>
     <property name="text">
      <string/>
@@ -138,7 +141,7 @@
  </widget>
  <resources>
   <include location="../imagens/img.qrc"/>
-  <include location="imagens/img.qrc"/>
+  <include location="../imagens/img.qrc"/>
  </resources>
  <connections/>
 </ui>

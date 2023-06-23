@@ -45,7 +45,7 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="volta_2">
+   <widget class="QPushButton" name="volta">
     <property name="geometry">
      <rect>
       <x>310</x>

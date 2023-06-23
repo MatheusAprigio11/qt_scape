@@ -55,7 +55,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rbga(0, 0, 0, 0);</string>
+     <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
     </property>
     <property name="text">
      <string/>
@@ -71,7 +71,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rbga(0, 0, 0, 0);</string>
+     <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
     </property>
     <property name="text">
      <string/>
@@ -80,14 +80,14 @@
    <widget class="QPushButton" name="olhos">
     <property name="geometry">
      <rect>
-      <x>410</x>
+      <x>420</x>
       <y>220</y>
-      <width>91</width>
-      <height>51</height>
+      <width>81</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rbga(0, 0, 0, 0);</string>
+     <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
     </property>
     <property name="text">
      <string/>
@@ -103,7 +103,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rbga(0, 0, 0, 0);</string>
+     <string notr="true">background-color: rgba(255, 255, 255, 0);</string>
     </property>
     <property name="text">
      <string/>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>olhos</class>
- <widget class="QMainWindow" name="olhos">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -51,17 +51,33 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap resource="../imagens/img.qrc">:/img/TDOlhos.png</pixmap>
+     <pixmap>../imagens/erou.jpg</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
     </property>
    </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>470</y>
+      <width>691</width>
+      <height>111</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size: 45px</string>
+    </property>
+    <property name="text">
+     <string>EROOOOOOOOOOOOOOOOOOU</string>
+    </property>
+   </widget>
    <widget class="QPushButton" name="volta">
     <property name="geometry">
      <rect>
-      <x>340</x>
-      <y>510</y>
+      <x>620</x>
+      <y>370</y>
       <width>161</width>
       <height>61</height>
      </rect>
@@ -77,8 +93,6 @@ border-radius: 8px</string>
    </widget>
   </widget>
  </widget>
- <resources>
-  <include location="../imagens/img.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>

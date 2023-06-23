@@ -1,5 +1,6 @@
 from PyQt5 import QtWidgets, uic, QtMultimedia
 from PyQt5.QtCore import QUrl
+from PyQt5.QtWidgets import QLineEdit
 import img
 
 
@@ -10,6 +11,8 @@ def mudarTl(anterior, proxima):
 class art_scape:
     def __init__(self):
         app = QtWidgets.QApplication([])
+
+        
         
         self.tl_telaUm = uic.loadUi("./telas/telaUm.ui")
         self.tl_TUQuadroBilhete = uic.loadUi("./telas/TUQuadroBilhete.ui")
@@ -33,6 +36,9 @@ class art_scape:
         self.tl_T3RGB = uic.loadUi("./telas/T3RGB.ui")
         self.tl_T3Saida = uic.loadUi("./telas/T3Saida.ui")
     
+        self.senha = uic.loadUi("./telas/senha.ui")
+        self.final = uic.loadUi("./telas/final.ui")
+        self.tl_erou = uic.loadUi("./telas/erou.ui")
 
         self.tl_telaUm.quadroBilhete.clicked.connect(lambda: mudarTl(self.tl_telaUm, self.tl_TUQuadroBilhete))
         self.tl_telaUm.escultura.clicked.connect(lambda: mudarTl(self.tl_telaUm, self.tl_TUEscultura))
@@ -78,13 +84,28 @@ class art_scape:
         self.tl_T3BilheteCaixa.volta.clicked.connect(lambda: mudarTl(self.tl_T3BilheteCaixa, self.tl_T3Saida))
         self.tl_T3Saida.rgb.clicked.connect(lambda: mudarTl(self.tl_T3Saida, self.tl_T3RGB))
         self.tl_T3RGB.volta.clicked.connect(lambda: mudarTl(self.tl_T3RGB, self.tl_T3Saida))
-
-        
-
-        
-
-
+        self.tl_T3Saida.portaSaida.clicked.connect(lambda: mudarTl(self.tl_T3Saida, self.senha))
+        self.senha.validar.clicked.connect(self.validar_senha)
+        self.senha.volta.clicked.connect(lambda: mudarTl(self.senha, self.tl_T3Saida))
+        self.final.sim.clicked.connect(lambda: mudarTl(self.final, self.tl_telaUm))
+        self.final.nao.clicked.connect(self.final.close)
+        self.tl_erou.volta.clicked.connect(lambda: mudarTl(self.tl_erou, self.senha))
         app.exec()
+        
+    def validar_senha(self):
+             senhaP = self.senha.lineEdit.text()
+             if senhaP == '2955':
+                self.senha.close()
+                self.final.show()
+                self.senha.lineEdit.clear()
+
+             else:
+                  self.senha.lineEdit.clear()
+                  self.senha.close()
+                  self.tl_erou.show()
+
+
+        
 
 
 

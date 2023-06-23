@@ -57,22 +57,6 @@
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QPushButton" name="bilheteAmarelo">
-    <property name="geometry">
-     <rect>
-      <x>470</x>
-      <y>290</y>
-      <width>101</width>
-      <height>101</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rbga(0, 0, 0, 0);</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-   </widget>
    <widget class="QPushButton" name="volta">
     <property name="geometry">
      <rect>
@@ -89,6 +73,22 @@ border-radius: 8px;</string>
     </property>
     <property name="text">
      <string>Voltar</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bilheteAmarelo">
+    <property name="geometry">
+     <rect>
+      <x>474</x>
+      <y>302</y>
+      <width>91</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: rgba(255, 255, 255, 0)</string>
+    </property>
+    <property name="text">
+     <string/>
     </property>
    </widget>
   </widget>
