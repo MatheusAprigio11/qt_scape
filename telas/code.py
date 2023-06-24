@@ -51,7 +51,7 @@ class art_scape:
 
         self.tl_telaUm.show()
 
-
+        #TELA DOIS
         self.tl_telaUm.direita.clicked.connect(lambda: mudarTl(self.tl_telaUm, self.tl_td))    #PERAS, SOMBRA, TINTAS, OLHOS, DIREITA, ESQUERDA
         self.tl_td.esquerda.clicked.connect(lambda: mudarTl(self.tl_td, self.tl_telaUm))
         self.tl_td.peras.clicked.connect(lambda:mudarTl(self.tl_td, self.tl_TDBilheteRosa))
